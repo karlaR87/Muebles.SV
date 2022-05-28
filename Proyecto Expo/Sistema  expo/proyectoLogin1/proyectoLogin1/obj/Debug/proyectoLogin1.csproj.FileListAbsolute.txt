@@ -1,0 +1,10 @@
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.exe.config
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.exe
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.pdb
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.AssemblyReference.cache
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Form1.resources
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Properties.Resources.resources
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.GenerateResource.cache
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.exe
+C:\Users\Daniel\source\repos\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.pdb
