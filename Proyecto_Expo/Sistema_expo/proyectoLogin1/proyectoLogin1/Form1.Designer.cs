@@ -78,6 +78,7 @@ namespace proyectoLogin1
             this.txtcontraseña.Size = new System.Drawing.Size(206, 30);
             this.txtcontraseña.TabIndex = 4;
             this.txtcontraseña.Text = "Contraseña";
+            this.txtcontraseña.TextChanged += new System.EventHandler(this.txtcontraseña_TextChanged);
             this.txtcontraseña.Enter += new System.EventHandler(this.txtcontraseña_Enter);
             this.txtcontraseña.Leave += new System.EventHandler(this.txtcontraseña_Leave);
             // 

@@ -63,6 +63,16 @@ namespace proyectoLogin1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calendarios {
+            get {
+                object obj = ResourceManager.GetObject("calendarios", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap esquisde {
             get {
                 object obj = ResourceManager.GetObject("esquisde", resourceCulture);

@@ -12,6 +12,7 @@ namespace proyectoLogin1
 {
     public partial class Form1 : Form
     {
+        static bool estadodelOjo ;
         public Form1()
         {
             InitializeComponent();
@@ -88,14 +89,18 @@ namespace proyectoLogin1
         private void pictureBox4_Click_1(object sender, EventArgs e)
         {
                 btMostrar.BringToFront();
+                estadodelOjo = true;
                 txtcontraseña.PasswordChar = '*';
         }
 
         private void btMostrar_Click(object sender, EventArgs e)
         {
-
-            ptOcultar.BringToFront();
-            txtcontraseña.PasswordChar = '\0';
+            if(txtcontraseña.Text != "Contraseña")
+            {
+                ptOcultar.BringToFront();
+                estadodelOjo = false;
+                txtcontraseña.PasswordChar = '\0';
+            }
         }
 
         private void btningresar_Click(object sender, EventArgs e)
@@ -103,6 +108,19 @@ namespace proyectoLogin1
             Administrador_interfaz ventanadeAdmin = new Administrador_interfaz();
             ventanadeAdmin.Show();
             Hide();
+        }
+
+        private void txtcontraseña_TextChanged(object sender, EventArgs e)
+        {
+            if (estadodelOjo == false)
+            {
+                ptOcultar.BringToFront();
+                txtcontraseña.PasswordChar = '\0';
+            }
+            if(txtcontraseña.Text == "Contraseña")
+            {
+                txtcontraseña.PasswordChar = '\0';
+            }
         }
 
         private void panel2_MouseDown(object sender, MouseEventArgs e)
